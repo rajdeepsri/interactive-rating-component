@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/rajdeepsri/interactive-rating-component)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://interactive-rating-compon.netlify.app/)
 
 ## My process
 
