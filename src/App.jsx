@@ -17,15 +17,19 @@ const Rating = ({ num, selectedRating, setSelectedRating }) => {
 
 const App = () => {
   const [showRating, setShowRating] = useState(true);
+  const [selectedRating, setSelectedRating] = useState(null);
   return showRating ? (
-    <RatingCard setShowRating={setShowRating} />
+    <RatingCard
+      setShowRating={setShowRating}
+      selectedRating={selectedRating}
+      setSelectedRating={setSelectedRating}
+    />
   ) : (
-    <ThankYou />
+    <ThankYou selectedRating={selectedRating} />
   );
 };
 
-const RatingCard = ({ setShowRating }) => {
-  const [selectedRating, setSelectedRating] = useState(null);
+const RatingCard = ({ setShowRating, selectedRating, setSelectedRating }) => {
   return (
     <main className="card">
       <div className="star-icon">
