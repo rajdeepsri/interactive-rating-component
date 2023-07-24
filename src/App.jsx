@@ -36,7 +36,7 @@ const RatingCard = ({ setShowRating, selectedRating, setSelectedRating }) => {
         <img src={iconStar} alt="star" />
       </div>
       <div>
-        <h1 className="title">How did we do?</h1>
+        <h1 className="title">How did we do well it works?</h1>
         <p className="desc">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
